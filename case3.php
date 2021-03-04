@@ -11,7 +11,7 @@
 
 	$server = 'mysql-class.infra.cs.odu.edu';
 	$sqlUsername = "jrich202020";
-	$sqlPassword = 'This15Dumb@21'; //$_ENV["MYPW"];
+	$sqlPassword = $_ENV["MYPW"];
 	$databaseName = 'jrich202020db';
 
 	$conn = new mysqli($server, $sqlUsername, $sqlPassword,$databaseName);
